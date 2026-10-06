@@ -1,8 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
 {
-  "solution": {
-    "path": "weeks_and_days.cpp.slnx",
-    "projects": [
-      "weeks_and_days.cpp.vcxproj"
-    ]
-  }
+    int num;
+
+    cout << "enter num" << endl;
+    cin >> num;
+
+    if (num % 2 == 0)
+        cout << num << " is even" << endl;
+    else
+        cout << num << " is odd" << endl;
+
+    return 0;
 }
